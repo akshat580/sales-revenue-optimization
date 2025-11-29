@@ -87,18 +87,6 @@ Using Pandas + Matplotlib:
 ✔ Monthly sales trend
 ✔ Distribution of discount, quantity, profit
 
-Example Code:
-
-import matplotlib.pyplot as plt
-
-category_sales = df.groupby('Category')['Sales'].sum().sort_values(ascending=False)
-
-plt.figure(figsize=(6,4))
-category_sales.plot(kind='bar')
-plt.title('Total Sales by Category')
-plt.xlabel('Category')
-plt.ylabel('Sales')
-plt.show()
 
 📊 Power BI Dashboard Features
 
